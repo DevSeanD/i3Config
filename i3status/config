@@ -38,6 +38,7 @@ ethernet _first_ {
 battery 0 {
 
         format = "%status %percentage"
+	last_full_capacity = true
         format_down = "No battery"
         status_chr = "⚡ CHR"
         status_bat = "🔋 INTERNAL_BAT"
@@ -50,6 +51,7 @@ battery 0 {
 
 battery 1 {
         format = "%status %percentage"
+	last_full_capacity = true
         format_down = "No battery"
         status_chr = "⚡ CHR"
         status_bat = "🔋 SLICE_BAT"
