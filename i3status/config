@@ -43,7 +43,7 @@ battery 0 {
         status_chr = "⚡ CHR"
         status_bat = "🔋 INTERNAL_BAT"
         status_unk = "🔋 INTERNAL_BAT"
-        status_full = "☻ FULL"
+        status_full = "😃 FULL"
         path = "/sys/class/power_supply/BAT%d/uevent"
         low_threshold = 10
 
@@ -56,7 +56,7 @@ battery 1 {
         status_chr = "⚡ CHR"
         status_bat = "🔋 SLICE_BAT"
         status_unk = "🔋 SLICE_BAT"
-        status_full = "☻ FULL"
+        status_full = "😃 FULL"
         path = "/sys/class/power_supply/BAT%d/uevent"
         low_threshold = 10
 }
